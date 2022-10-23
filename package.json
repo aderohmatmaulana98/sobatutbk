@@ -1,0 +1,20 @@
+{
+  "name": "sobatutbk",
+  "version": "1.0.0",
+  "description": "UTBK",
+  "main": "index.php",
+  "scripts": {
+    "mix": "npx mix",
+    "run-local": "php -S localhost:8080"
+  },
+  "keywords": [],
+  "author": "Patfo Team",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "laravel-mix": "^6.0.31",
+    "postcss": "^8.3.6",
+    "postcss-nesting": "^8.0.1",
+    "tailwindcss": "^2.2.15"
+  }
+}

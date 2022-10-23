@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+
+html {
+	background-color: rgba(241, 246, 251, 1);
+}
+
+.top-bar {
+	z-index: 2;
+	@apply top-0 left-0 fixed w-full h-16;
+}
+
+.top-bar .top-bar-content {
+	box-shadow: 0 3px 15px rgb(0 0 0 / 7%);
+	@apply bg-blue text-white border-b w-full h-full flex px-5;
+}
+
+.side-menu {
+	z-index: 1;
+}
+
+.side-menu .list-item a {
+	-webkit-appearance: button;
+	-moz-appearance: button;
+	appearance: button;
+	text-decoration: none;
+	color: initial;
+
+	border-radius: 0.5rem;
+	padding: 0.75rem 0.5rem;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	@apply transform duration-150 transition hover:scale-105;
+}
+
+.side-menu-siswa > div {
+	@apply bg-orange-light border-r w-full h-full pt-16 flex flex-col overflow-auto;
+}
+
+.side-menu-siswa .list-item--active > a {
+	@apply bg-orange;
+}
+
+.side-menu-siswa .list-item > a {
+	@apply text-white hover:bg-blue-200 hover:text-orange-dark;
+}
+
+.content-box {
+	box-shadow: 0 3px 20px rgb(0 0 0 / 4%);
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 0.375 rem;
+	@apply relative;
+}
+
+@tailwind utilities;

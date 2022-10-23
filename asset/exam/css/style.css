@@ -1,0 +1,68 @@
+.hide-content{
+    display: none;
+}
+
+.bg-orange{
+    background-color: orange !important;
+}
+
+.bg-hijau{
+    background-color: #28a745;
+}
+
+.bg-biru{
+    background-color: #007bff !important;
+}
+
+.text-orange{
+    color: orange !important;
+}
+
+.mata-pelajaran{
+    transition: 1s;
+}
+
+.mata-pelajaran .btn-mapel{
+    background-color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.mata-pelajaran .btn-mapel:hover{
+    border-color: rgb(26, 29, 168) !important; 
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.267);
+    transition: .5s;
+}
+
+.btn-selesai:hover{
+    background-color: rgb(14, 179, 36) !important;
+    border-color: aliceblue;
+}
+
+.text-ket-soal{
+    font-size: 10px;
+}
+
+.kotak-nomor{
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+
+.kotak-nomor:hover{
+    color: wheat;
+}
+
+.rotate{
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+}
+
+.rotate.down{
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(90deg);
+}
